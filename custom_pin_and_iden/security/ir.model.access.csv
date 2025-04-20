@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+custom_pin_and_iden,custom_pin_and_iden.custom_pin_and_iden,model_custom_pin_and_iden,base.group_user,1,1,1,1

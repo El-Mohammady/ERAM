@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <data>
+    <record id="id_hr_view_employee_form_inherit_add_fields" model="ir.ui.view">
+      <field name="name">hr view employee form add fields</field>
+      <field name="model">hr.employee</field>
+      <field name="inherit_id" ref="hr.view_employee_form"/>
+      <field name="arch" type="xml">
+        <xpath expr="//field[@name='identification_id']" position="after">
+          <field name="is_identification" invisible="1"/>
+          <field name="end_date_identification"/>
+          <field name="attachment_identification"/>
+          <field name="residency" invisible="1"/>
+          <field name="residency_date" invisible="1"/>
+          <field name="insurance_num"/>
+          <field name="insurance_date"/>
+          <field name="border_num"/>
+          <field name="date_of_entry"/>
+          <!--          <field name="end_date_identification"/>-->
+          <!--          <field name="attachment_identification"/>-->
+        </xpath>
+        <xpath expr="//field[@name='passport_id']" position="after">
+          <field name="is_passport" invisible="1"/>
+          <!--          <field name="passport_end_date"/>-->
+          <field name="end_date_passport"/>
+          <field name="attachment_passport"/>
+
+          <!--          <field name="end_date_passport" attrs="{'invisible': [('is_passport','!=', True)]}"/>-->
+          <!--          <field name="attachment_passport" attrs="{'invisible': [('is_passport','!=', True)]}"/>-->
+        </xpath>
+        <xpath expr="//notebook" position="inside">
+          <page string="Followers">
+            <field name="followers_ids">
+              <list editable="bottom">
+                <field name="name"/>
+                <field name="gender"/>
+                <field name="birthday"/>
+                <field name="identification_id"/>
+              </list>
+            </field>
+          </page>
+        </xpath>
+      </field>
+    </record>
+  </data>
+</odoo>

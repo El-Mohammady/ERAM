@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="account_asset_asset_form_inh" model="ir.ui.view">
+            <field name="name">account.asset.from.inh</field>
+            <field name="model">account.asset</field>
+            <field name="inherit_id" ref="account_asset.view_account_asset_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='analytic_distribution']" position="after">
+                    <field name="employee_ids" widget="many2many_tags"/>
+                </xpath>
+
+            </field>
+        </record>
+
+    </data>
+</odoo>

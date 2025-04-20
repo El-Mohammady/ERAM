@@ -1,0 +1,9 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_crm_projects,crm.projects,model_crm_projects,base.group_user,1,1,1,1
+access_client_interests,client.interests,model_client_interests,base.group_user,1,1,1,1
+access_special_interests,special.interests,model_special_interests,base.group_user,1,1,1,1
+access_real_state_interests,real.state.interests,model_real_state_interests,base.group_user,1,1,1,1
+access_preferred_means_communication,preferred.means.communication,model_preferred_means_communication,base.group_user,1,1,1,1
+access_purpose_purchase,purpose.purchase,model_purpose_purchase,base.group_user,1,1,1,1
+access_log_file,log.file,model_log_file,base.group_user,1,1,1,1
+access_project_name,project.name,model_project_name,base.group_user,1,1,1,1

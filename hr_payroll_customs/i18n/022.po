@@ -1,0 +1,510 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* hr_payroll_customs
+#
+msgid ""
+msgstr ""
+#"Project-Id-Version: Odoo Server 15.0+e\n"
+#"Report-Msgid-Bugs-To: \n"
+#"POT-Creation-Date: 2023-07-05 12:11+0000\n"
+#"PO-Revision-Date: 2023-07-05 12:11+0000\n"
+#"Last-Translator: \n"
+#"Language-Team: \n"
+#"MIME-Version: 1.0\n"
+#"Content-Type: text/plain; charset=UTF-8\n"
+#"Content-Transfer-Encoding: \n"
+#"Plural-Forms: \n"
+
+#. module: hr_payroll_customs
+#: model:ir.model.fields,help:hr_payroll_customs.field_hr_employee__custom_duration0_due0
+msgid " more than 5 Years"
+msgstr "أكثر من 5 سنوات"
+
+#. module: hr_payroll_customs
+#: model_terms:ir.ui.view,arch_db:hr_payroll_customs.hr_contract_form_inherit00
+msgid "/ month"
+msgstr "شهر"
+
+#. module: hr_payroll_customs
+#: model:ir.model.fields,field_description:hr_payroll_customs.field_hr_employee__thirty_days
+msgid "30 Days"
+msgstr "يومًا"
+
+#. module: hr_payroll_customs
+#: model_terms:ir.ui.view,arch_db:hr_payroll_customs.hr_leave_form_view_inherit
+msgid "<span class=\"ml8\">Days</span>"
+msgstr ""
+
+#. module: hr_payroll_customs
+#: model:ir.model.fields,field_description:hr_payroll_customs.field_hr_payslip__accrual_leave
+msgid "Accrual Leave"
+msgstr "تراكم الإجازات"
+
+#. module: hr_payroll_customs
+#: model_terms:ir.ui.view,arch_db:hr_payroll_customs.hr_employee_form_inherit02
+msgid "Accrual Leave Information"
+msgstr "معلومات تراكم الإجازات"
+
+#. module: hr_payroll_customs
+#: model:hr.salary.rule,name:hr_payroll_customs.hr_rule_accrual_leave
+msgid "Accrual Leave Rule"
+msgstr "قاعدة تراكم الإجازات"
+
+#. module: hr_payroll_customs
+#: model:ir.model.fields,field_description:hr_payroll_customs.field_hr_employee__custom_accrual0_leave0
+msgid "Accrual Leave of time off days"
+msgstr "تراكم أيام الإجازة"
+
+#. module: hr_payroll_customs
+#: model:ir.actions.server,name:hr_payroll_customs.ir_cron_scheduler_payroll_info_custom_action_ir_actions_server
+#: model:ir.cron,cron_name:hr_payroll_customs.ir_cron_scheduler_payroll_info_custom_action
+#: model:ir.cron,name:hr_payroll_customs.ir_cron_scheduler_payroll_info_custom_action
+msgid "Active Payroll Information"
+msgid "معلومات الرواتب النشطة"
+
+#. module: hr_payroll_customs
+#: model:ir.model.fields,field_description:hr_payroll_customs.field_hr_leave_type__add_to
+msgid "Add To Days Taken"
+msgid "إضافة إلى أيام الإجازة المأخوذة"
+
+#. module: hr_payroll_customs
+#: model:ir.model.fields,field_description:hr_payroll_customs.field_hr_employee__amount_of_days_taken
+#: model:ir.model.fields,help:hr_payroll_customs.field_hr_employee__amount_of_days_taken
+msgid "Amount Of Days Taken"
+msgid "قيمة أيام الإجازة المأخوذة"
+
+#. module: hr_payroll_customs
+#: model:ir.model.fields,field_description:hr_payroll_customs.field_hr_employee__amount_of_net_days
+#: model:ir.model.fields,help:hr_payroll_customs.field_hr_employee__amount_of_net_days
+msgid "Amount Of Net Days"
+msgstr "قيمة صافي الايام"
+
+#. module: hr_payroll_customs
+#: model:ir.model.fields,help:hr_payroll_customs.field_hr_employee__custom_accrual0_leave0
+#: model:ir.model.fields,help:hr_payroll_customs.field_hr_payslip__accrual_leave
+msgid "Amount Of Time Off Days"
+msgstr "قيمة ايام الاجازة"
+
+#. module: hr_payroll_customs
+#: model:ir.model.fields,field_description:hr_payroll_customs.field_hr_employee__amount_of_total_days
+#: model:ir.model.fields,help:hr_payroll_customs.field_hr_employee__amount_of_total_days
+msgid "Amount Of Total Days"
+msgstr "قيمة مجموع الايام"
+
+#. module: hr_payroll_customs
+#: model_terms:ir.ui.view,arch_db:hr_payroll_customs.payroll_form_view
+msgid "Batch"
+msgstr ""
+
+#. module: hr_payroll_customs
+#: model_terms:ir.ui.view,arch_db:hr_payroll_customs.payroll_form_view
+msgid "Category"
+msgstr "فئة"
+
+#. module: hr_payroll_customs
+#: model_terms:ir.ui.view,arch_db:hr_payroll_customs.hr_contract_form_inherit00
+msgid "Compute"
+msgstr "حساب"
+
+#. module: hr_payroll_customs
+#: model_terms:ir.ui.view,arch_db:hr_payroll_customs.hr_employee_form_inherit02
+msgid "Compute Accrual"
+msgstr "حساب التراكم"
+
+#. module: hr_payroll_customs
+#: model_terms:ir.ui.view,arch_db:hr_payroll_customs.payroll_form_view
+msgid "Contract"
+msgstr ""
+
+#. module: hr_payroll_customs
+#: model:ir.model.fields,field_description:hr_payroll_customs.field_hr_contract__contract_history_line_ids
+msgid "Contract History Line"
+msgstr "سجل تاريخ العقد"
+
+#. module: hr_payroll_customs
+#: model:ir.model.fields,field_description:hr_payroll_customs.field_hr_leave_type__create_unpaid
+msgid "Create Unpaid"
+msgstr "إنشاء إجازة غير مدفوعة"
+
+#. module: hr_payroll_customs
+#: model:ir.model.fields,field_description:hr_payroll_customs.field_hr_contract_history_line__create_uid
+msgid "Created by"
+msgstr "تم إنشاؤه بواسطة"
+
+#. module: hr_payroll_customs
+#: model:ir.model.fields,field_description:hr_payroll_customs.field_hr_contract_history_line__create_date
+msgid "Created on"
+msgstr "تم الإنشاء في"
+
+#. module: hr_payroll_customs
+#: model:ir.model.fields,field_description:hr_payroll_customs.field_hr_contract__base_currency_id
+msgid "Currency"
+msgstr "العملة"
+
+#. module: hr_payroll_customs
+#: model:ir.model.fields,field_description:hr_payroll_customs.field_hr_contract_history_line__date
+msgid "Date"
+msgstr "التاريخ"
+
+#. module: hr_payroll_customs
+#: model:ir.model.fields,field_description:hr_payroll_customs.field_hr_employee__in_a_num_to_compute
+msgid "Days Taken"
+msgstr "الأيام المأخوذة"
+
+#. module: hr_payroll_customs
+#: model:ir.model,name:hr_payroll_customs.model_hr_departure_reason
+msgid "Departure Reason"
+msgstr "سبب المغادرة"
+
+#. module: hr_payroll_customs
+#: model:ir.model.fields,field_description:hr_payroll_customs.field_hr_contract_history_line__display_name
+msgid "Display Name"
+msgstr "الاسم المعروض"
+
+#. module: hr_payroll_customs
+#: model:ir.model.fields,field_description:hr_payroll_customs.field_hr_employee__custom_duration0_due0
+msgid "Duration Due"
+msgstr "المدة المستحقة"
+
+#. module: hr_payroll_customs
+#: model:ir.model.fields,field_description:hr_payroll_customs.field_hr_employee__custom_duration0_due_less_than5
+msgid "Duration Due Less Than 5 Years"
+msgstr "المدة المستحقة أقل من 5 سنوات"
+
+#. module: hr_payroll_customs
+#: model:ir.model,name:hr_payroll_customs.model_hr_employee
+#: model_terms:ir.ui.view,arch_db:hr_payroll_customs.payroll_form_view
+msgid "Employee"
+msgstr ""
+
+#. module: hr_payroll_customs
+#: model:ir.model,name:hr_payroll_customs.model_hr_contract
+msgid "Employee Contract"
+msgstr "عقد الموظف"
+
+#. module: hr_payroll_customs
+#: model_terms:ir.ui.view,arch_db:hr_payroll_customs.hr_employee_form_inherit02
+msgid "Fields To Explain Compute Accrual"
+msgstr "الحقول لشرح حساب التراكم"
+
+#. module: hr_payroll_customs
+#: model:ir.model.fields,field_description:hr_payroll_customs.field_hr_employee__custom_first_contract_date00_custom
+msgid "First Contract Date"
+msgstr "تاريخ أول عقد"
+
+#. module: hr_payroll_customs
+#: model:ir.model.fields,field_description:hr_payroll_customs.field_hr_leave__from_custom
+#: model_terms:ir.ui.view,arch_db:hr_payroll_customs.payroll_form_view
+msgid "From"
+msgstr ""
+
+#. module: hr_payroll_customs
+#: model_terms:ir.ui.view,arch_db:hr_payroll_customs.hr_contract_form_inherit00
+msgid "History"
+msgstr "السجل"
+
+#. module: hr_payroll_customs
+#: model:ir.model.fields,field_description:hr_payroll_customs.field_hr_contract_history_line__id
+msgid "ID"
+msgstr ""
+
+#. module: hr_payroll_customs
+#: model:ir.model.fields,field_description:hr_payroll_customs.field_hr_leave__identification_id_custom
+msgid "Identification No"
+msgstr "رقم الهوية"
+
+#. module: hr_payroll_customs
+#: model:ir.model.fields,field_description:hr_payroll_customs.field_hr_contract_history_line____last_update
+msgid "Last Modified on"
+msgstr "آخر تعديل في"
+
+#. module: hr_payroll_customs
+#: model:ir.model.fields,field_description:hr_payroll_customs.field_hr_employee__last_time_off_last_days
+msgid "Last Time Off"
+msgstr "آخر إجازة"
+
+#. module: hr_payroll_customs
+#: model:ir.model.fields,field_description:hr_payroll_customs.field_hr_contract_history_line__write_uid
+msgid "Last Updated by"
+msgstr "آخر تحديث بواسطة"
+
+#. module: hr_payroll_customs
+#: model:ir.model.fields,field_description:hr_payroll_customs.field_hr_contract_history_line__write_date
+msgid "Last Updated on"
+msgstr "آخر تحديث في"
+
+#. module: hr_payroll_customs
+#: model_terms:ir.ui.view,arch_db:hr_payroll_customs.payroll_form_view
+msgid "Last Working Date"
+msgstr ""
+
+#. module: hr_payroll_customs
+#: model:ir.model.fields,field_description:hr_payroll_customs.field_hr_contract_history_line__link_id
+msgid "Link"
+msgstr "الرابط"
+
+#. module: hr_payroll_customs
+#: model_terms:ir.ui.view,arch_db:hr_payroll_customs.payroll_form_view
+msgid "Name"
+msgstr ""
+
+#. module: hr_payroll_customs
+#: model:ir.model.fields,field_description:hr_payroll_customs.field_hr_employee__net_days
+#: model:ir.model.fields,field_description:hr_payroll_customs.field_hr_leave__net_days
+#: model_terms:ir.ui.view,arch_db:hr_payroll_customs.hr_employee_form_inherit02
+#: model_terms:ir.ui.view,arch_db:hr_payroll_customs.hr_leave_form_view_inherit
+msgid "Net Days"
+msgstr "صافي الأيام"
+
+#. module: hr_payroll_customs
+#: model_terms:ir.ui.view,arch_db:hr_payroll_customs.payroll_form_view
+msgid "Number"
+msgstr ""
+
+#. module: hr_payroll_customs
+#: model:ir.model.fields,field_description:hr_payroll_customs.field_hr_employee__old_time_off_days_taken
+msgid "Old Time Off Days Taken"
+msgstr "عدد أيام الإجازات القديمة المأخوذة"
+
+#. module: hr_payroll_customs
+#: model:ir.model.fields,field_description:hr_payroll_customs.field_hr_leave__custom_pin
+msgid "PIN"
+msgstr "الرقم التعريفي الشخصي"
+
+#. module: hr_payroll_customs
+#: model:ir.model,name:hr_payroll_customs.model_hr_payslip
+msgid "Pay Slip"
+msgstr "إيصال الدفع"
+
+#. module: hr_payroll_customs
+#: model:ir.model,name:hr_payroll_customs.model_report_hr_payroll_customs_payroll_form_view
+msgid "Payroll Customs Report"
+msgstr "تقرير جمارك الرواتب"
+
+#. module: hr_payroll_customs
+#: model:ir.actions.report,name:hr_payroll_customs.payroll_report_action
+#: model_terms:ir.ui.view,arch_db:hr_payroll_customs.payroll_form_view
+msgid "Payroll Report"
+msgstr "تقرير الرواتب"
+
+#. module: hr_payroll_customs
+#: model_terms:ir.ui.view,arch_db:hr_payroll_customs.payroll_form_view
+msgid "Quantity"
+msgstr ""
+
+#. module: hr_payroll_customs
+#: model_terms:ir.ui.view,arch_db:hr_payroll_customs.payroll_form_view
+msgid "Rate (%)"
+msgstr ""
+
+#. module: hr_payroll_customs
+#: model:ir.model.fields,field_description:hr_payroll_customs.field_hr_leave__related_leave_id
+msgid "Related Leave"
+msgstr "الإجازة المرتبطة"
+
+#. module: hr_payroll_customs
+#: model:ir.model.fields,help:hr_payroll_customs.field_hr_employee__thirty_days
+msgid "Replace 21 days by 30 days in compute accrual"
+msgstr "استبدال 21 يومًا بـ 30 يومًا في حساب التراكم"
+
+#. module: hr_payroll_customs
+#: model_terms:ir.ui.view,arch_db:hr_payroll_customs.payroll_form_view
+msgid "Rule"
+msgstr ""
+
+#. module: hr_payroll_customs
+#: model:ir.model.fields,field_description:hr_payroll_customs.field_hr_contract__country_code
+msgid "Saudi Company Country Code"
+msgstr "كود الدولة السعودية للشركة"
+
+#. module: hr_payroll_customs
+#: model:res.groups,name:hr_payroll_customs.group_get_approve_and_fields
+msgid "See Approve time off and Fields"
+msgstr "رؤية الموافقة على وقت الإجازة والحقول"
+
+#. module: hr_payroll_customs
+#: model:res.groups,name:hr_payroll_customs.group_get_fields
+msgid "See Dates in Accrual Leave Information"
+msgstr "رؤية التواريخ في معلومات التراكم للإجازة"
+
+#. module: hr_payroll_customs
+#: model:ir.model.fields,field_description:hr_payroll_customs.field_hr_payslip__show_last_payslip
+msgid "Show Basic In Annual"
+msgstr "إظهار الأجر الأساسي في السنوي"
+
+#. module: hr_payroll_customs
+#: model_terms:ir.ui.view,arch_db:hr_payroll_customs.payroll_form_view
+msgid "Structure"
+msgstr ""
+
+#. module: hr_payroll_customs
+#: model:ir.model.fields,help:hr_payroll_customs.field_hr_contract__country_code
+msgid ""
+"The ISO country code in two chars. \n"
+"You can use this field for quick search."
+msgstr ""
+"رمز الدولة حسب معيار ISO مكون من حرفين.\n"
+"يمكنك استخدام هذا الحقل للبحث السريع."
+
+#. module: hr_payroll_customs
+#: model_terms:ir.ui.view,arch_db:hr_payroll_customs.payroll_form_view
+msgid "The date of the holiday"
+msgstr ""
+
+#. module: hr_payroll_customs
+#: model:ir.model,name:hr_payroll_customs.model_hr_leave
+msgid "Time Off"
+msgstr "الإجازات "
+
+#. module: hr_payroll_customs
+#: model:ir.model.fields,field_description:hr_payroll_customs.field_hr_employee__time_off_custom_days
+msgid "Time Off Days"
+msgstr ""
+
+#. module: hr_payroll_customs
+#: model:ir.model,name:hr_payroll_customs.model_hr_leave_type
+msgid "Time Off Type"
+msgstr "نوع الإجازة "
+
+#. module: hr_payroll_customs
+#: code:addons/hr_payroll_customs/models/custom_leave.py:0
+#, python-format
+msgid ""
+"Time off request must be confirmed ("To Approve") in order to approve it."
+msgstr ""
+"يجب تأكيد طلب الإجازة ("للموافقة عليه") لكي يتم الموافقة عليه."
+
+#. module: hr_payroll_customs
+#: code:addons/hr_payroll_customs/models/custom_leave.py:0
+#, python-format
+msgid "Time off request must be confirmed in order to approve it."
+msgstr "يجب تأكيد طلب الإجازة لكي يتم الموافقة عليه."
+
+#. module: hr_payroll_customs
+#: model:ir.model.fields,field_description:hr_payroll_customs.field_hr_leave__custom_to
+msgid "To"
+msgstr ""
+
+#. module: hr_payroll_customs
+#: model:ir.model.fields,field_description:hr_payroll_customs.field_hr_employee__custom_today_date00
+msgid "Today Date"
+msgstr "تاريخ اليوم"
+
+#. module: hr_payroll_customs
+#: model:ir.model.fields,help:hr_payroll_customs.field_hr_employee__more11_than_vacation11
+msgid "Today Date or False"
+msgstr "تاريخ اليوم أو خطأ"
+
+#. module: hr_payroll_customs
+#: model_terms:ir.ui.view,arch_db:hr_payroll_customs.payroll_form_view
+msgid "Total"
+msgstr ""
+
+#. module: hr_payroll_customs
+#: model:ir.model.fields,field_description:hr_payroll_customs.field_hr_employee__total_days_all
+msgid "Total Days"
+msgstr "مجموع الأيام"
+
+#. module: hr_payroll_customs
+#: model:ir.model.fields,field_description:hr_payroll_customs.field_hr_contract__total_salary
+#: model:ir.model.fields,field_description:hr_payroll_customs.field_hr_contract_history_line__total_salary
+msgid "Total Salary"
+msgstr "إجمالي الراتب"
+
+#. module: hr_payroll_customs
+#: model:ir.model.fields,field_description:hr_payroll_customs.field_hr_employee__custom_total0_year0
+msgid "Total Year"
+msgstr "إجمالي السنة"
+
+#. module: hr_payroll_customs
+#: code:addons/hr_payroll_customs/models/custom_leave.py:0
+#, python-format
+msgid "You can not have 2 time off that overlaps on the same day."
+msgstr "لا يمكنك امتلاك إجازتين تتداخلان في نفس اليوم."
+
+#. module: hr_payroll_customs
+#: code:addons/hr_payroll_customs/models/custom_leave.py:0
+#, python-format
+msgid "Your %(leave_type)s planned on %(date)s has been accepted"
+msgstr "تم قبول خطتك لل%(leave_type)s في %(date)s"
+
+#. module: hr_payroll_customs
+#: model:ir.model.fields,field_description:hr_payroll_customs.field_hr_employee__no_vacation11
+msgid "contract end date or today date"
+msgstr "تاريخ نهاية العقد أو تاريخ اليوم"
+
+#. module: hr_payroll_customs
+#: model:ir.model.fields,field_description:hr_payroll_customs.field_hr_employee__no_custom_vacation22
+#: model:ir.model.fields,help:hr_payroll_customs.field_hr_employee__no_custom_vacation22
+msgid "first contract date or False"
+msgstr "تاريخ بداية العقد الأول أو خطأ"
+
+#. module: hr_payroll_customs
+#: model:ir.model,name:hr_payroll_customs.model_hr_contract_history_line
+msgid "hr.contract.history.line"
+msgstr "سجل تاريخ العقود الوظيفية"
+
+#. module: hr_payroll_customs
+#: model:ir.model.fields,field_description:hr_payroll_customs.field_hr_employee__date11_return_vacation11
+msgid "last working date in return vacation"
+msgstr "تاريخ آخر يوم عمل في عودة الإجازة"
+
+#. module: hr_payroll_customs
+#: model:ir.model.fields,field_description:hr_payroll_customs.field_hr_employee__more11_than_vacation11
+msgid "more than vacation today date"
+    msgstr "أكثر من تاريخ الإجازة اليوم"
+
+#. module: hr_payroll_customs
+#: model:ir.model.fields,field_description:hr_payroll_customs.field_hr_employee__more22_than_vacation22
+msgid "return_date for more than vacation or today date"
+msgstr "تاريخ العودة لأكثر من الإجازة أو تاريخ اليوم"
+
+#. module: hr_payroll_customs
+#: model_terms:ir.ui.view,arch_db:hr_payroll_customs.payroll_form_view
+msgid "to"
+msgstr "إلى"
+
+#. module: hr_payroll_customs
+#: model:ir.model.fields,field_description:hr_payroll_customs.field_hr_employee__date22_return_vacation22
+msgid "today date or first contract date"
+msgstr "تاريخ اليوم أو تاريخ العقد الأول"
+
+#. module: hr_payroll_customs
+#: model:hr.departure.reason,name:hr_payroll_customs.end_of_the_contract
+msgid "إنهاء العقد"
+msgstr ""
+
+#. module: hr_payroll_customs
+#: model:hr.salary.rule,name:hr_payroll_customs.hr_rule_termination_of_the_contract_by_the_company
+msgid "إنهاء العقد / إنهاء العقد من قبل الشركة"
+msgstr ""
+
+#. module: hr_payroll_customs
+#: model:hr.departure.reason,name:hr_payroll_customs.termination_of_the_contract_by_the_company
+msgid "إنهاء العقد من قبل الشركة"
+msgstr ""
+
+#. module: hr_payroll_customs
+#: model:hr.departure.reason,name:hr_payroll_customs.departure_resignation
+msgid "الاستقالة"
+msgstr ""
+
+#. module: hr_payroll_customs
+#: model:hr.salary.rule,name:hr_payroll_customs.hr_rule_departure_exceptional_request
+msgid "الاستقالة / طلب استثنائي"
+msgstr ""
+
+#. module: hr_payroll_customs
+#: model:hr.departure.reason,name:hr_payroll_customs.departure_number80
+msgid "المادة ٨٠"
+msgstr ""
+
+#. module: hr_payroll_customs
+#: model:hr.departure.reason,name:hr_payroll_customs.departure_no_work
+msgid "رفض العمل"
+msgstr ""
+
+#. module: hr_payroll_customs
+#: model:hr.departure.reason,name:hr_payroll_customs.departure_exceptional_request
+msgid "طلب استثنائي"
+msgstr ""

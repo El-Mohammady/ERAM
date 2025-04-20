@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- Inherit Form View to Modify it -->
+    <record id="res_partner_view_form_inherit_a" model="ir.ui.view">
+        <field name="name">res.partner.form.inherit</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//page[@name='internal_notes']" position="after">
+                <page string="Sold Properties">
+                    <field name="similar_project_ids">
+                        <list>
+                            <field name="name"/>
+                            <field name="project_id"/>
+                            <field name="number_of_rooms"/>
+                            <field name="area"/>
+                            <field name="reserved_to_id"/>
+                            <field name="sold_to_id"/>
+                            <field name="product_template_id"/>
+                        </list>
+                    </field>
+                </page>
+            </xpath>
+        </field>
+    </record>
+</odoo>

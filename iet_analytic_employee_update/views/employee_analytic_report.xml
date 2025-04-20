@@ -1,0 +1,29 @@
+<odoo>
+    <data>
+        <record id="employee_analytic_report_view_form_inherit" model="ir.ui.view">
+            <field name="name">analytic.employee.report.inherit</field>
+            <field name="model">employee.analytic.report</field>
+            <field name="inherit_id" ref="employee_analytic_report.employee_analytic_report_view_form"/>
+            <field name="arch" type="xml">
+               <xpath expr="//field[@name='employee_id']" position="attributes">
+                    <attribute name="readonly">1</attribute>
+                </xpath>
+                <xpath expr="//sheet" position="inside">
+                    <button name="action_compute_totals" type="object" string="Show Accounts" class="btn-primary"/>
+
+                    <field name="move_line_ids">
+                        <list editable="bottom" create="0">
+                            <!--                                        <field name="employee_id"/>-->
+<!--                            <field name="employee_custom_analytic_id"/>-->
+                            <field name="debit"/>
+                            <field name="credit"/>
+                            <field name="balance"/>
+                        </list>
+                    </field>
+
+
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>

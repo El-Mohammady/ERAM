@@ -1,0 +1,61 @@
+<odoo>
+  <data>
+    <record id="hr_leave_form_view_inherit" model="ir.ui.view">
+      <field name="name">hr.leave.form.inherit</field>
+      <field name="model">hr.leave</field>
+      <field name="inherit_id" ref="hr_holidays.hr_leave_view_form_manager"/>
+      <field name="arch" type="xml">
+        <xpath expr="//field[@name='department_id']" position="after">
+          <!--          <field name="net_days"/>-->
+          <div class="o_td_label">
+            <label for="net_days" string="Net Days"/>
+          </div>
+          <div name="net_days">
+            <field name="net_days"/>
+            <span class="ml8">Days</span>
+          </div>
+          <field name="related_leave_id" invisible="related_leave_id == False"/>
+          <field name="from_custom"/>
+          <field name="custom_to"/>
+          <field name="custom_pin"/>
+          <field name="identification_id_custom"/>
+        </xpath>
+        <xpath expr="//button[@name='action_approve']" position="attributes">
+          <attribute name="groups">hr_payroll_customs.group_get_approve_and_fields</attribute>
+          <!--          <attribute name="invisible">1</attribute>-->
+        </xpath>
+        <!--                <xpath expr="//field[@name='employee_ids']" position="after">-->
+        <!--                    <field name="identification_id_custom"/>-->
+        <!--                </xpath>-->
+      </field>
+    </record>
+
+    <record id="custom_hr_leave_type_form_inherit_custom" model="ir.ui.view">
+      <field name="name">hr.leave.type.form.inherit</field>
+      <field name="model">hr.leave.type</field>
+      <field name="inherit_id" ref="hr_holidays.edit_holiday_status_form"/>
+      <field name="arch" type="xml">
+        <xpath expr="//field[@name='request_unit']" position="after">
+          <field name="add_to"/>
+          <field name="create_unpaid"/>
+        </xpath>
+      </field>
+    </record>
+
+    <record id="inherit_hr_leave_view_custom_search" model="ir.ui.view">
+      <field name="name">hr.leave.view.form.inherit.hr.payroll.holidays</field>
+      <field name="model">hr.leave</field>
+      <field name="inherit_id" ref="hr_holidays.view_hr_holidays_filter"/>
+      <field name="arch" type="xml">
+        <xpath expr="//field[@name='holiday_status_id']" position="before">
+          <!--          <search>-->
+          <field name="identification_id_custom"/>
+          <field name="custom_pin"/>
+
+          <!--          </search>-->
+        </xpath>
+      </field>
+    </record>
+
+  </data>
+</odoo>

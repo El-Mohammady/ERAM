@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+  <record id="prevent_create_partner" model="res.groups">
+    <field name="name">Prevent Create Partner</field>
+  </record>
+
+  <!--invoice bill -->
+  <record model="ir.module.category" id="group_invoice_bill">
+    <field name="name">Invoice And Bill</field>
+  </record>
+
+  <record id="prevent_create_invoice_bill" model="res.groups">
+    <field name="name">Prevent Create Invoice and Bill</field>
+    <field name="category_id" ref="iet_customs.group_invoice_bill"/>
+  </record>
+
+  <record id="set_to_technical_review_invoice_bill" model="res.groups">
+    <field name="name">Technical Review Invoice and Bill</field>
+    <field name="category_id" ref="iet_customs.group_invoice_bill"/>
+  </record>
+
+  <record id="set_to_revision_invoice_bill" model="res.groups">
+    <field name="name">Revision button in Invoice and Bill</field>
+    <field name="category_id" ref="iet_customs.group_invoice_bill"/>
+  </record>
+
+  <record id="set_to_confirm_invoice_bill" model="res.groups">
+    <field name="name">Confirm button in Invoice and Bill</field>
+    <field name="category_id" ref="iet_customs.group_invoice_bill"/>
+  </record>
+
+  <!--payment-->
+  <record model="ir.module.category" id="group_payment">
+    <field name="name">Payment</field>
+  </record>
+  <record id="prevent_create_payment" model="res.groups">
+    <field name="name">Prevent Create Payment</field>
+    <field name="category_id" ref="iet_customs.group_payment"/>
+  </record>
+
+  <record id="set_to_technical_review_payment" model="res.groups">
+    <field name="name">Technical Review button in Payment</field>
+    <field name="category_id" ref="iet_customs.group_payment"/>
+  </record>
+
+  <record id="set_to_revision_payment" model="res.groups">
+    <field name="name">Revision button in Payment</field>
+    <field name="category_id" ref="iet_customs.group_payment"/>
+  </record>
+
+  <record id="set_to_confirm_payment" model="res.groups">
+    <field name="name">Confirm button in Payment</field>
+    <field name="category_id" ref="iet_customs.group_payment"/>
+  </record>
+
+
+  <!--Purchase-->
+
+  <record model="ir.module.category" id="group_purchase">
+    <field name="name">Purchase</field>
+  </record>
+
+  <record id="prevent_create_purchase_order" model="res.groups">
+    <field name="name">Prevent Create Purchase Order</field>
+    <field name="category_id" ref="iet_customs.group_purchase"/>
+  </record>
+
+  <record id="set_to_technical_review" model="res.groups">
+    <field name="name">Technical Review button in Purchase</field>
+    <field name="category_id" ref="iet_customs.group_purchase"/>
+  </record>
+
+  <record id="set_to_revision" model="res.groups">
+    <field name="name">Revision button in Purchase</field>
+    <field name="category_id" ref="iet_customs.group_purchase"/>
+  </record>
+
+  <record id="set_to_confirm" model="res.groups">
+    <field name="name">Confirm button in Purchase</field>
+    <field name="category_id" ref="iet_customs.group_purchase"/>
+  </record>
+
+
+  <!--sales-->
+  <record model="ir.module.category" id="group_sales">
+    <field name="name">Sales</field>
+  </record>
+
+  <record id="prevent_create_sales_order" model="res.groups">
+    <field name="name">Prevent Create Sales Order</field>
+    <field name="category_id" ref="iet_customs.group_sales"/>
+  </record>
+
+
+  <record id="set_to_technical_review_sales" model="res.groups">
+    <field name="name">Technical Review button in Sales</field>
+    <field name="category_id" ref="iet_customs.group_sales"/>
+  </record>
+
+  <record id="set_to_revision_sales" model="res.groups">
+    <field name="name">Revision button in Sales</field>
+    <field name="category_id" ref="iet_customs.group_sales"/>
+  </record>
+
+  <record id="set_to_confirm_sales" model="res.groups">
+    <field name="name">Confirm button in Sales</field>
+    <field name="category_id" ref="iet_customs.group_sales"/>
+  </record>
+
+</odoo>

@@ -1,0 +1,877 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* iet_crm_projects_custom
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0+e-20250223\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-20 08:14+0000\n"
+"PO-Revision-Date: 2025-03-20 08:14+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: iet_crm_projects_custom
+#: model:ir.actions.act_window,name:iet_crm_projects_custom.project_name_action
+msgid " Projects Name "
+msgstr "اسم المشروع"
+
+#. module: iet_crm_projects_custom
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_client_interests__message_needaction
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_crm_projects__message_needaction
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_preferred_means_communication__message_needaction
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_project_name__message_needaction
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_purpose_purchase__message_needaction
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_real_state_interests__message_needaction
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_special_interests__message_needaction
+msgid "Action Needed"
+msgstr " الإحتياجات"
+
+#. module: iet_crm_projects_custom
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_client_interests__activity_ids
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_crm_projects__activity_ids
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_preferred_means_communication__activity_ids
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_project_name__activity_ids
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_purpose_purchase__activity_ids
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_real_state_interests__activity_ids
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_special_interests__activity_ids
+msgid "Activities"
+msgstr "الأنشطة"
+
+#. module: iet_crm_projects_custom
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_client_interests__activity_exception_decoration
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_crm_projects__activity_exception_decoration
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_preferred_means_communication__activity_exception_decoration
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_project_name__activity_exception_decoration
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_purpose_purchase__activity_exception_decoration
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_real_state_interests__activity_exception_decoration
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_special_interests__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr ""
+
+#. module: iet_crm_projects_custom
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_client_interests__activity_state
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_crm_projects__activity_state
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_preferred_means_communication__activity_state
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_project_name__activity_state
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_purpose_purchase__activity_state
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_real_state_interests__activity_state
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_special_interests__activity_state
+msgid "Activity State"
+msgstr ""
+
+#. module: iet_crm_projects_custom
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_client_interests__activity_type_icon
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_crm_projects__activity_type_icon
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_preferred_means_communication__activity_type_icon
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_project_name__activity_type_icon
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_purpose_purchase__activity_type_icon
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_real_state_interests__activity_type_icon
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_special_interests__activity_type_icon
+msgid "Activity Type Icon"
+msgstr ""
+
+#. module: iet_crm_projects_custom
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_project_name__is_apartment
+msgid "Apartment"
+msgstr "شقة"
+
+#. module: iet_crm_projects_custom
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_client_interests__message_attachment_count
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_crm_projects__message_attachment_count
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_preferred_means_communication__message_attachment_count
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_project_name__message_attachment_count
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_purpose_purchase__message_attachment_count
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_real_state_interests__message_attachment_count
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_special_interests__message_attachment_count
+msgid "Attachment Count"
+msgstr ""
+
+#. module: iet_crm_projects_custom
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_crm_lead__bathroom
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_crm_projects__bathroom
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_product_product__bathroom
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_product_template__bathroom
+msgid "Bathroom"
+msgstr "حمام"
+
+#. module: iet_crm_projects_custom
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_crm_lead__area
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_product_product__area
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_product_template__area
+msgid "Built Up Area"
+msgstr "المساحة المبنية"
+
+#. module: iet_crm_projects_custom
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_crm_projects__area
+msgid "Built-up Area"
+msgstr " المساحة المبنية"
+
+#. module: iet_crm_projects_custom
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_crm_projects__built_up_special_area
+msgid "Built-up Area and Private Space"
+msgstr "المساحة المبنية +الجزء الخاص "
+
+#. module: iet_crm_projects_custom
+#: model_terms:ir.ui.view,arch_db:iet_crm_projects_custom.crm_projects_form
+msgid "Cancel"
+msgstr "إلغاء"
+
+#. module: iet_crm_projects_custom
+#: model:ir.model.fields.selection,name:iet_crm_projects_custom.selection__crm_projects__state__cancel
+#: model_terms:ir.ui.view,arch_db:iet_crm_projects_custom.crm_projects_form
+msgid "Cancelled"
+msgstr "تم الالغاء"
+
+#. module: iet_crm_projects_custom
+#: model:ir.actions.act_window,name:iet_crm_projects_custom.client_interests_action
+#: model:ir.model,name:iet_crm_projects_custom.model_client_interests
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_client_interests__name
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_crm_lead__client_interests_ids
+#: model:ir.ui.menu,name:iet_crm_projects_custom.client_interests_menu
+msgid "Client Interests"
+msgstr "إهتمامات العميل"
+
+#. module: iet_crm_projects_custom
+#: model:ir.model,name:iet_crm_projects_custom.model_res_partner
+msgid "Contact"
+msgstr "جهة الاتصال"
+
+#. module: iet_crm_projects_custom
+#: model_terms:ir.actions.act_window,help:iet_crm_projects_custom.client_interests_action
+msgid "Create Client Interests"
+msgstr "إنشاء اهتمامات العميل"
+
+#. module: iet_crm_projects_custom
+#: model_terms:ir.actions.act_window,help:iet_crm_projects_custom.crm_projects_action
+msgid "Create Crm Projects"
+msgstr "إنشاء وحدة"
+
+#. module: iet_crm_projects_custom
+#: model_terms:ir.actions.act_window,help:iet_crm_projects_custom.preferred_means_of_communication_action
+msgid "Create Preferred Means of Communication Interests"
+msgstr "إنشاء وسائل الإتصال المفضلة"
+
+#. module: iet_crm_projects_custom
+#: model_terms:ir.actions.act_window,help:iet_crm_projects_custom.project_name_action
+msgid "Create Projects names"
+msgstr "انشاء اسم المشروع"
+
+#. module: iet_crm_projects_custom
+#: model_terms:ir.actions.act_window,help:iet_crm_projects_custom.purpose_purchase_action
+msgid "Create Purpose Of Purchase"
+msgstr "إنشاء الغرض من الشراء"
+
+#. module: iet_crm_projects_custom
+#: model_terms:ir.actions.act_window,help:iet_crm_projects_custom.real_state_interests_action
+msgid "Create Real State Interests"
+msgstr "إنشاء إهتمامات العقار"
+
+#. module: iet_crm_projects_custom
+#: model_terms:ir.actions.act_window,help:iet_crm_projects_custom.special_interests_action
+msgid "Create Special Interests"
+msgstr "إنشاء إهتمامات خاصة"
+
+#. module: iet_crm_projects_custom
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_client_interests__create_uid
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_crm_projects__create_uid
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_log_file__create_uid
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_preferred_means_communication__create_uid
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_project_name__create_uid
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_purpose_purchase__create_uid
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_real_state_interests__create_uid
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_special_interests__create_uid
+msgid "Created by"
+msgstr "أُُُُنشئت بواسطة"
+
+#. module: iet_crm_projects_custom
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_client_interests__create_date
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_crm_projects__create_date
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_log_file__create_date
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_preferred_means_communication__create_date
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_project_name__create_date
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_purpose_purchase__create_date
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_real_state_interests__create_date
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_special_interests__create_date
+msgid "Created on"
+msgstr "أُُُُنشئت في"
+
+#. module: iet_crm_projects_custom
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_log_file__crm_lead_id
+msgid "Crm Lead"
+msgstr "فرصة البيع"
+
+#. module: iet_crm_projects_custom
+#: model:ir.actions.act_window,name:iet_crm_projects_custom.crm_projects_action
+#: model:ir.model,name:iet_crm_projects_custom.model_crm_projects
+msgid "Crm Projects"
+msgstr "المشاريع"
+
+#. module: iet_crm_projects_custom
+#: model_terms:ir.ui.view,arch_db:iet_crm_projects_custom.crm_projects_form
+msgid "Customer Info"
+msgstr "معلومات العميل"
+
+#. module: iet_crm_projects_custom
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_log_file__date
+msgid "Date"
+msgstr "الزمن"
+
+#. module: iet_crm_projects_custom
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_log_file__name
+msgid "Description"
+msgstr "الوصف"
+
+#. module: iet_crm_projects_custom
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_client_interests__display_name
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_crm_projects__display_name
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_log_file__display_name
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_preferred_means_communication__display_name
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_project_name__display_name
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_purpose_purchase__display_name
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_real_state_interests__display_name
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_special_interests__display_name
+msgid "Display Name"
+msgstr "الإسم"
+
+#. module: iet_crm_projects_custom
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_crm_lead__driver_bathroom
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_crm_projects__driver_bathroom
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_product_product__driver_bathroom
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_product_template__driver_bathroom
+msgid "Driver's Bathroom"
+msgstr "حمام سائق"
+
+#. module: iet_crm_projects_custom
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_crm_lead__driver_room
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_crm_projects__driver_room
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_product_product__driver_room
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_product_template__driver_room
+msgid "Driver's Room"
+msgstr "غرفة سائق"
+
+#. module: iet_crm_projects_custom
+#: model:ir.ui.menu,name:iet_crm_projects_custom.favorites_root_menu
+msgid "Favorites"
+msgstr "المفضلات"
+
+#. module: iet_crm_projects_custom
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_client_interests__message_follower_ids
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_crm_projects__message_follower_ids
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_preferred_means_communication__message_follower_ids
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_project_name__message_follower_ids
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_purpose_purchase__message_follower_ids
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_real_state_interests__message_follower_ids
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_special_interests__message_follower_ids
+msgid "Followers"
+msgstr "المتابعين"
+
+#. module: iet_crm_projects_custom
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_client_interests__message_partner_ids
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_crm_projects__message_partner_ids
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_preferred_means_communication__message_partner_ids
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_project_name__message_partner_ids
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_purpose_purchase__message_partner_ids
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_real_state_interests__message_partner_ids
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_special_interests__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "المتابعين"
+
+#. module: iet_crm_projects_custom
+#: model:ir.model.fields,help:iet_crm_projects_custom.field_client_interests__activity_type_icon
+#: model:ir.model.fields,help:iet_crm_projects_custom.field_crm_projects__activity_type_icon
+#: model:ir.model.fields,help:iet_crm_projects_custom.field_preferred_means_communication__activity_type_icon
+#: model:ir.model.fields,help:iet_crm_projects_custom.field_project_name__activity_type_icon
+#: model:ir.model.fields,help:iet_crm_projects_custom.field_purpose_purchase__activity_type_icon
+#: model:ir.model.fields,help:iet_crm_projects_custom.field_real_state_interests__activity_type_icon
+#: model:ir.model.fields,help:iet_crm_projects_custom.field_special_interests__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr ""
+
+#. module: iet_crm_projects_custom
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_client_interests__has_message
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_crm_projects__has_message
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_preferred_means_communication__has_message
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_project_name__has_message
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_purpose_purchase__has_message
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_real_state_interests__has_message
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_special_interests__has_message
+msgid "Has Message"
+msgstr ""
+
+#. module: iet_crm_projects_custom
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_client_interests__id
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_crm_projects__id
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_log_file__id
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_preferred_means_communication__id
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_project_name__id
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_purpose_purchase__id
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_real_state_interests__id
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_special_interests__id
+msgid "ID"
+msgstr ""
+
+#. module: iet_crm_projects_custom
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_client_interests__activity_exception_icon
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_crm_projects__activity_exception_icon
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_preferred_means_communication__activity_exception_icon
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_project_name__activity_exception_icon
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_purpose_purchase__activity_exception_icon
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_real_state_interests__activity_exception_icon
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_special_interests__activity_exception_icon
+msgid "Icon"
+msgstr ""
+
+#. module: iet_crm_projects_custom
+#: model:ir.model.fields,help:iet_crm_projects_custom.field_client_interests__activity_exception_icon
+#: model:ir.model.fields,help:iet_crm_projects_custom.field_crm_projects__activity_exception_icon
+#: model:ir.model.fields,help:iet_crm_projects_custom.field_preferred_means_communication__activity_exception_icon
+#: model:ir.model.fields,help:iet_crm_projects_custom.field_project_name__activity_exception_icon
+#: model:ir.model.fields,help:iet_crm_projects_custom.field_purpose_purchase__activity_exception_icon
+#: model:ir.model.fields,help:iet_crm_projects_custom.field_real_state_interests__activity_exception_icon
+#: model:ir.model.fields,help:iet_crm_projects_custom.field_special_interests__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr ""
+
+#. module: iet_crm_projects_custom
+#: model:ir.model.fields,help:iet_crm_projects_custom.field_client_interests__message_needaction
+#: model:ir.model.fields,help:iet_crm_projects_custom.field_crm_projects__message_needaction
+#: model:ir.model.fields,help:iet_crm_projects_custom.field_preferred_means_communication__message_needaction
+#: model:ir.model.fields,help:iet_crm_projects_custom.field_project_name__message_needaction
+#: model:ir.model.fields,help:iet_crm_projects_custom.field_purpose_purchase__message_needaction
+#: model:ir.model.fields,help:iet_crm_projects_custom.field_real_state_interests__message_needaction
+#: model:ir.model.fields,help:iet_crm_projects_custom.field_special_interests__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr ""
+
+#. module: iet_crm_projects_custom
+#: model:ir.model.fields,help:iet_crm_projects_custom.field_client_interests__message_has_error
+#: model:ir.model.fields,help:iet_crm_projects_custom.field_client_interests__message_has_sms_error
+#: model:ir.model.fields,help:iet_crm_projects_custom.field_crm_projects__message_has_error
+#: model:ir.model.fields,help:iet_crm_projects_custom.field_crm_projects__message_has_sms_error
+#: model:ir.model.fields,help:iet_crm_projects_custom.field_preferred_means_communication__message_has_error
+#: model:ir.model.fields,help:iet_crm_projects_custom.field_preferred_means_communication__message_has_sms_error
+#: model:ir.model.fields,help:iet_crm_projects_custom.field_project_name__message_has_error
+#: model:ir.model.fields,help:iet_crm_projects_custom.field_project_name__message_has_sms_error
+#: model:ir.model.fields,help:iet_crm_projects_custom.field_purpose_purchase__message_has_error
+#: model:ir.model.fields,help:iet_crm_projects_custom.field_purpose_purchase__message_has_sms_error
+#: model:ir.model.fields,help:iet_crm_projects_custom.field_real_state_interests__message_has_error
+#: model:ir.model.fields,help:iet_crm_projects_custom.field_real_state_interests__message_has_sms_error
+#: model:ir.model.fields,help:iet_crm_projects_custom.field_special_interests__message_has_error
+#: model:ir.model.fields,help:iet_crm_projects_custom.field_special_interests__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr ""
+
+#. module: iet_crm_projects_custom
+#: model:ir.ui.menu,name:iet_crm_projects_custom.interests_root_menu
+msgid "Interests"
+msgstr "الإهتمامات"
+
+#. module: iet_crm_projects_custom
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_client_interests__message_is_follower
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_crm_projects__message_is_follower
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_preferred_means_communication__message_is_follower
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_project_name__message_is_follower
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_purpose_purchase__message_is_follower
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_real_state_interests__message_is_follower
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_special_interests__message_is_follower
+msgid "Is Follower"
+msgstr ""
+
+#. module: iet_crm_projects_custom
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_client_interests__write_uid
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_crm_projects__write_uid
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_log_file__write_uid
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_preferred_means_communication__write_uid
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_project_name__write_uid
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_purpose_purchase__write_uid
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_real_state_interests__write_uid
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_special_interests__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: iet_crm_projects_custom
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_client_interests__write_date
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_crm_projects__write_date
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_log_file__write_date
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_preferred_means_communication__write_date
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_project_name__write_date
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_purpose_purchase__write_date
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_real_state_interests__write_date
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_special_interests__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: iet_crm_projects_custom
+#: model:ir.model,name:iet_crm_projects_custom.model_crm_lead
+msgid "Lead/Opportunity"
+msgstr "عميل مهتم/فرصة "
+
+#. module: iet_crm_projects_custom
+#: model:ir.model,name:iet_crm_projects_custom.model_log_file
+#: model_terms:ir.ui.view,arch_db:iet_crm_projects_custom.crm_lead_view_form_inherit_a
+msgid "Log File"
+msgstr "السجل"
+
+#. module: iet_crm_projects_custom
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_crm_lead__log_file_ids
+msgid "Log file"
+msgstr "السجل"
+
+#. module: iet_crm_projects_custom
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_client_interests__message_has_error
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_crm_projects__message_has_error
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_preferred_means_communication__message_has_error
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_project_name__message_has_error
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_purpose_purchase__message_has_error
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_real_state_interests__message_has_error
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_special_interests__message_has_error
+msgid "Message Delivery error"
+msgstr ""
+
+#. module: iet_crm_projects_custom
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_client_interests__message_ids
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_crm_projects__message_ids
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_preferred_means_communication__message_ids
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_project_name__message_ids
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_purpose_purchase__message_ids
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_real_state_interests__message_ids
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_special_interests__message_ids
+msgid "Messages"
+msgstr "الرسائل"
+
+#. module: iet_crm_projects_custom
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_client_interests__my_activity_date_deadline
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_crm_projects__my_activity_date_deadline
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_preferred_means_communication__my_activity_date_deadline
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_project_name__my_activity_date_deadline
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_purpose_purchase__my_activity_date_deadline
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_real_state_interests__my_activity_date_deadline
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_special_interests__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr ""
+
+#. module: iet_crm_projects_custom
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_project_name__name
+msgid "Name"
+msgstr "الاسم"
+
+#. module: iet_crm_projects_custom
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_crm_lead__nanny
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_crm_projects__nanny
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_product_product__nanny
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_product_template__nanny
+msgid "Nanny"
+msgstr "مربية"
+
+#. module: iet_crm_projects_custom
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_crm_lead__maid_bathroom
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_crm_projects__maid_bathroom
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_product_product__maid_bathroom
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_product_template__maid_bathroom
+msgid "Nanny's Bathroom"
+msgstr "حمام مربية "
+
+#. module: iet_crm_projects_custom
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_crm_lead__maid_room
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_product_product__maid_room
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_product_template__maid_room
+msgid "Nanny's Room"
+msgstr "غرفة مربية"
+
+#. module: iet_crm_projects_custom
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_crm_projects__maid_room
+msgid "Nanny's room"
+msgstr "غرفة مربية"
+
+#. module: iet_crm_projects_custom
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_client_interests__activity_calendar_event_id
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_crm_projects__activity_calendar_event_id
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_preferred_means_communication__activity_calendar_event_id
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_project_name__activity_calendar_event_id
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_purpose_purchase__activity_calendar_event_id
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_real_state_interests__activity_calendar_event_id
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_special_interests__activity_calendar_event_id
+msgid "Next Activity Calendar Event"
+msgstr ""
+
+#. module: iet_crm_projects_custom
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_client_interests__activity_date_deadline
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_crm_projects__activity_date_deadline
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_preferred_means_communication__activity_date_deadline
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_project_name__activity_date_deadline
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_purpose_purchase__activity_date_deadline
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_real_state_interests__activity_date_deadline
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_special_interests__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr ""
+
+#. module: iet_crm_projects_custom
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_client_interests__activity_summary
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_crm_projects__activity_summary
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_preferred_means_communication__activity_summary
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_project_name__activity_summary
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_purpose_purchase__activity_summary
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_real_state_interests__activity_summary
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_special_interests__activity_summary
+msgid "Next Activity Summary"
+msgstr ""
+
+#. module: iet_crm_projects_custom
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_client_interests__activity_type_id
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_crm_projects__activity_type_id
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_preferred_means_communication__activity_type_id
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_project_name__activity_type_id
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_purpose_purchase__activity_type_id
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_real_state_interests__activity_type_id
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_special_interests__activity_type_id
+msgid "Next Activity Type"
+msgstr ""
+
+#. module: iet_crm_projects_custom
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_client_interests__message_needaction_counter
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_crm_projects__message_needaction_counter
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_preferred_means_communication__message_needaction_counter
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_project_name__message_needaction_counter
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_purpose_purchase__message_needaction_counter
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_real_state_interests__message_needaction_counter
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_special_interests__message_needaction_counter
+msgid "Number of Actions"
+msgstr ""
+
+#. module: iet_crm_projects_custom
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_client_interests__message_has_error_counter
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_crm_projects__message_has_error_counter
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_preferred_means_communication__message_has_error_counter
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_project_name__message_has_error_counter
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_purpose_purchase__message_has_error_counter
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_real_state_interests__message_has_error_counter
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_special_interests__message_has_error_counter
+msgid "Number of errors"
+msgstr ""
+
+#. module: iet_crm_projects_custom
+#: model:ir.model.fields,help:iet_crm_projects_custom.field_client_interests__message_needaction_counter
+#: model:ir.model.fields,help:iet_crm_projects_custom.field_crm_projects__message_needaction_counter
+#: model:ir.model.fields,help:iet_crm_projects_custom.field_preferred_means_communication__message_needaction_counter
+#: model:ir.model.fields,help:iet_crm_projects_custom.field_project_name__message_needaction_counter
+#: model:ir.model.fields,help:iet_crm_projects_custom.field_purpose_purchase__message_needaction_counter
+#: model:ir.model.fields,help:iet_crm_projects_custom.field_real_state_interests__message_needaction_counter
+#: model:ir.model.fields,help:iet_crm_projects_custom.field_special_interests__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr ""
+
+#. module: iet_crm_projects_custom
+#: model:ir.model.fields,help:iet_crm_projects_custom.field_client_interests__message_has_error_counter
+#: model:ir.model.fields,help:iet_crm_projects_custom.field_crm_projects__message_has_error_counter
+#: model:ir.model.fields,help:iet_crm_projects_custom.field_preferred_means_communication__message_has_error_counter
+#: model:ir.model.fields,help:iet_crm_projects_custom.field_project_name__message_has_error_counter
+#: model:ir.model.fields,help:iet_crm_projects_custom.field_purpose_purchase__message_has_error_counter
+#: model:ir.model.fields,help:iet_crm_projects_custom.field_real_state_interests__message_has_error_counter
+#: model:ir.model.fields,help:iet_crm_projects_custom.field_special_interests__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr ""
+
+#. module: iet_crm_projects_custom
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_crm_lead__number_of_rooms
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_crm_projects__number_of_rooms
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_product_product__number_of_rooms
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_product_template__number_of_rooms
+msgid "Number of rooms"
+msgstr "عدد الغرف"
+
+#. module: iet_crm_projects_custom
+#. odoo-python
+#: code:addons/iet_crm_projects_custom/models/crm_projects.py:0
+msgid "Please select a customer for reservation."
+msgstr "من فضلك اختر عميل لحجز الوحدة"
+
+#. module: iet_crm_projects_custom
+#: model:ir.model,name:iet_crm_projects_custom.model_preferred_means_communication
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_crm_lead__preferred_means_communication_ids
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_preferred_means_communication__name
+#: model:ir.ui.menu,name:iet_crm_projects_custom.preferred_means_of_communication_menu
+msgid "Preferred Means of Communication"
+msgstr "وسائل الإتصال المفضلة"
+
+#. module: iet_crm_projects_custom
+#: model:ir.actions.act_window,name:iet_crm_projects_custom.preferred_means_of_communication_action
+msgid "Preferred Means of Communication Action"
+msgstr "وسائل الإتصال المفضلة"
+
+#. module: iet_crm_projects_custom
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_crm_lead__preferred_times_communication
+msgid "Preferred Times of Communication"
+msgstr "مواعيد الإتصال المفضلة"
+
+#. module: iet_crm_projects_custom
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_crm_lead__private_space
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_crm_projects__private_space
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_product_product__private_space
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_product_template__private_space
+msgid "Private Space"
+msgstr "الجزء الخاص"
+
+#. module: iet_crm_projects_custom
+#: model:ir.model,name:iet_crm_projects_custom.model_product_template
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_crm_projects__product_template_id
+msgid "Product"
+msgstr "المنتج"
+
+#. module: iet_crm_projects_custom
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_crm_lead__project_id
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_crm_projects__project_id
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_product_product__project_name_id
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_product_template__project_name_id
+#: model:ir.ui.menu,name:iet_crm_projects_custom.project_name_menu
+msgid "Project Name"
+msgstr "اسم المشروع"
+
+#. module: iet_crm_projects_custom
+#: model:ir.ui.menu,name:iet_crm_projects_custom.crm_projects_menu
+#: model:ir.ui.menu,name:iet_crm_projects_custom.crm_projects_root_menu
+msgid "Projects"
+msgstr "المشاريع"
+
+#. module: iet_crm_projects_custom
+#: model:ir.model,name:iet_crm_projects_custom.model_project_name
+msgid "Projects name"
+msgstr "اسم المشروع"
+
+#. module: iet_crm_projects_custom
+#: model_terms:ir.ui.view,arch_db:iet_crm_projects_custom.crm_projects_form
+msgid "Property Info"
+msgstr "معلومات الوحدة"
+
+#. module: iet_crm_projects_custom
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_crm_lead__property_number_id
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_crm_projects__name
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_product_product__property_number_id
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_product_template__property_number_id
+msgid "Property Number"
+msgstr "رقم الوحدة"
+
+#. module: iet_crm_projects_custom
+#: model:ir.model,name:iet_crm_projects_custom.model_purpose_purchase
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_crm_lead__purpose_purchase_ids
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_purpose_purchase__name
+#: model:ir.ui.menu,name:iet_crm_projects_custom.purpose_purchase_menu
+msgid "Purpose Of Purchase"
+msgstr "الغرض من الشراء"
+
+#. module: iet_crm_projects_custom
+#: model:ir.actions.act_window,name:iet_crm_projects_custom.purpose_purchase_action
+msgid "Purpose Of Purchase Action"
+msgstr "الغرض من الشراء"
+
+#. module: iet_crm_projects_custom
+#: model:ir.model.fields.selection,name:iet_crm_projects_custom.selection__crm_projects__state__ready
+msgid "Ready"
+msgstr "جاهزة"
+
+#. module: iet_crm_projects_custom
+#: model:ir.model,name:iet_crm_projects_custom.model_real_state_interests
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_crm_lead__real_state_interests_ids
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_real_state_interests__name
+#: model:ir.ui.menu,name:iet_crm_projects_custom.real_state_interests_menu
+msgid "Real State Interests"
+msgstr "إهتمامات العقار"
+
+#. module: iet_crm_projects_custom
+#: model:ir.actions.act_window,name:iet_crm_projects_custom.real_state_interests_action
+msgid "Real State Interests Action"
+msgstr "إهتمامات العقار"
+
+#. module: iet_crm_projects_custom
+#: model_terms:ir.ui.view,arch_db:iet_crm_projects_custom.crm_projects_form
+msgid "Reserve"
+msgstr "حجز الوحدة"
+
+#. module: iet_crm_projects_custom
+#: model:ir.model.fields.selection,name:iet_crm_projects_custom.selection__crm_projects__state__reserved
+msgid "Reserved"
+msgstr "محجوزة"
+
+#. module: iet_crm_projects_custom
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_crm_projects__reserved_to_id
+msgid "Reserved To"
+msgstr "محجوزة ل"
+
+#. module: iet_crm_projects_custom
+#: model_terms:ir.ui.view,arch_db:iet_crm_projects_custom.crm_projects_form
+msgid "Reset to Ready"
+msgstr "الإعادة إلي جاهزة"
+
+#. module: iet_crm_projects_custom
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_client_interests__activity_user_id
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_crm_projects__activity_user_id
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_preferred_means_communication__activity_user_id
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_project_name__activity_user_id
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_purpose_purchase__activity_user_id
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_real_state_interests__activity_user_id
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_special_interests__activity_user_id
+msgid "Responsible User"
+msgstr "المستخدم المسؤل"
+
+#. module: iet_crm_projects_custom
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_client_interests__message_has_sms_error
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_crm_projects__message_has_sms_error
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_preferred_means_communication__message_has_sms_error
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_project_name__message_has_sms_error
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_purpose_purchase__message_has_sms_error
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_real_state_interests__message_has_sms_error
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_special_interests__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr ""
+
+#. module: iet_crm_projects_custom
+#: model_terms:ir.ui.view,arch_db:iet_crm_projects_custom.crm_projects_form
+msgid "Sale"
+msgstr "بيع"
+
+#. module: iet_crm_projects_custom
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_crm_projects__sale_order_id
+msgid "Sale Order Number"
+msgstr "رقم أمر البيع"
+
+#. module: iet_crm_projects_custom
+#: model:ir.model,name:iet_crm_projects_custom.model_sale_order
+msgid "Sales Order"
+msgstr "أمر البيع"
+
+#. module: iet_crm_projects_custom
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_crm_lead__similar_project_ids
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_crm_projects__similar_project_ids
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_res_partner__similar_project_ids
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_res_users__similar_project_ids
+msgid "Similar Project"
+msgstr "الوحدات المشابهة"
+
+#. module: iet_crm_projects_custom
+#: model_terms:ir.ui.view,arch_db:iet_crm_projects_custom.crm_lead_view_form_inherit_a
+#: model_terms:ir.ui.view,arch_db:iet_crm_projects_custom.crm_projects_form
+msgid "Similar properties"
+msgstr "الوحدات المشابهة"
+
+#. module: iet_crm_projects_custom
+#: model:ir.model.fields.selection,name:iet_crm_projects_custom.selection__crm_projects__state__sold
+msgid "Sold"
+msgstr "تم البيع"
+
+#. module: iet_crm_projects_custom
+#: model_terms:ir.ui.view,arch_db:iet_crm_projects_custom.res_partner_view_form_inherit_a
+msgid "Sold Properties"
+msgstr "الوحدات المباعة"
+
+#. module: iet_crm_projects_custom
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_crm_projects__sold_to_id
+msgid "Sold To"
+msgstr "بيعت ل"
+
+#. module: iet_crm_projects_custom
+#: model:ir.actions.act_window,name:iet_crm_projects_custom.special_interests_action
+#: model:ir.model,name:iet_crm_projects_custom.model_special_interests
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_crm_lead__special_interests_ids
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_special_interests__name
+#: model:ir.ui.menu,name:iet_crm_projects_custom.special_interests_menu
+msgid "Special Interests"
+msgstr "الإهتمامات الخاصة"
+
+#. module: iet_crm_projects_custom
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_crm_projects__state
+msgid "State"
+msgstr "الحالة"
+
+#. module: iet_crm_projects_custom
+#: model:ir.model.fields,help:iet_crm_projects_custom.field_client_interests__activity_state
+#: model:ir.model.fields,help:iet_crm_projects_custom.field_crm_projects__activity_state
+#: model:ir.model.fields,help:iet_crm_projects_custom.field_preferred_means_communication__activity_state
+#: model:ir.model.fields,help:iet_crm_projects_custom.field_project_name__activity_state
+#: model:ir.model.fields,help:iet_crm_projects_custom.field_purpose_purchase__activity_state
+#: model:ir.model.fields,help:iet_crm_projects_custom.field_real_state_interests__activity_state
+#: model:ir.model.fields,help:iet_crm_projects_custom.field_special_interests__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+
+#. module: iet_crm_projects_custom
+#: model:ir.model.constraint,message:iet_crm_projects_custom.constraint_res_partner_mobile_uniq
+msgid "The mobile of Customer must be unique "
+msgstr "رقم العميل لابد أن يكون فريد من نوعة,اختر رقم أخر"
+
+#. module: iet_crm_projects_custom
+#: model:ir.model.constraint,message:iet_crm_projects_custom.constraint_res_partner_phone_uniq
+msgid "The phone of Customer must be unique !"
+msgstr "رقم العميل لابد أن يكون فريد من نوعة,اختر رقم أخر"
+
+#. module: iet_crm_projects_custom
+#: model_terms:ir.ui.view,arch_db:iet_crm_projects_custom.crm_lead_view_form_inherit_a
+msgid ""
+"This phone number is blacklisted for SMS Marketing. Click to unblacklist."
+msgstr ""
+
+#. module: iet_crm_projects_custom
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_crm_lead__total_area
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_crm_projects__total_area
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_product_product__total_area
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_product_template__total_area
+msgid "Total Area"
+msgstr "المساحة الكلية"
+
+#. module: iet_crm_projects_custom
+#: model:ir.model.fields,help:iet_crm_projects_custom.field_client_interests__activity_exception_decoration
+#: model:ir.model.fields,help:iet_crm_projects_custom.field_crm_projects__activity_exception_decoration
+#: model:ir.model.fields,help:iet_crm_projects_custom.field_preferred_means_communication__activity_exception_decoration
+#: model:ir.model.fields,help:iet_crm_projects_custom.field_project_name__activity_exception_decoration
+#: model:ir.model.fields,help:iet_crm_projects_custom.field_purpose_purchase__activity_exception_decoration
+#: model:ir.model.fields,help:iet_crm_projects_custom.field_real_state_interests__activity_exception_decoration
+#: model:ir.model.fields,help:iet_crm_projects_custom.field_special_interests__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr ""
+
+#. module: iet_crm_projects_custom
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_crm_lead__unit_description
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_crm_projects__unit_description
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_product_product__unit_description
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_product_template__unit_description
+msgid "Unit Description"
+msgstr "نوع الوحدة"
+
+#. module: iet_crm_projects_custom
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_project_name__is_villa
+msgid "Villa"
+msgstr ""
+
+#. module: iet_crm_projects_custom
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_client_interests__website_message_ids
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_crm_projects__website_message_ids
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_preferred_means_communication__website_message_ids
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_project_name__website_message_ids
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_purpose_purchase__website_message_ids
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_real_state_interests__website_message_ids
+#: model:ir.model.fields,field_description:iet_crm_projects_custom.field_special_interests__website_message_ids
+msgid "Website Messages"
+msgstr ""
+
+#. module: iet_crm_projects_custom
+#: model:ir.model.fields,help:iet_crm_projects_custom.field_client_interests__website_message_ids
+#: model:ir.model.fields,help:iet_crm_projects_custom.field_crm_projects__website_message_ids
+#: model:ir.model.fields,help:iet_crm_projects_custom.field_preferred_means_communication__website_message_ids
+#: model:ir.model.fields,help:iet_crm_projects_custom.field_project_name__website_message_ids
+#: model:ir.model.fields,help:iet_crm_projects_custom.field_purpose_purchase__website_message_ids
+#: model:ir.model.fields,help:iet_crm_projects_custom.field_real_state_interests__website_message_ids
+#: model:ir.model.fields,help:iet_crm_projects_custom.field_special_interests__website_message_ids
+msgid "Website communication history"
+msgstr ""
+
+#. module: iet_crm_projects_custom
+#: model_terms:ir.ui.view,arch_db:iet_crm_projects_custom.project_name_view_form
+msgid "project_name_form"
+msgstr ""

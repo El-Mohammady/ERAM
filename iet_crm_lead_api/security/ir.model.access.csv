@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_iet_crm_lead_api_iet_crm_lead_api,iet_crm_lead_api.iet_crm_lead_api,model_iet_crm_lead_api_iet_crm_lead_api,base.group_user,1,1,1,1

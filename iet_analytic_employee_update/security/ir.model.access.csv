@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_employee_analytic_report_line,employee_analytic_report_line,model_employee_analytic_report_line,base.group_user,1,1,1,1
