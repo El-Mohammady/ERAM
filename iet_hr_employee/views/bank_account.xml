@@ -1,0 +1,16 @@
+<odoo>
+    <data>
+        <record id="bank_account_tree" model="ir.ui.view">
+            <field name="name">bank_account_tree</field>
+            <field name="model">bank.account</field>
+            <field name="arch" type="xml">
+                <list editable="bottom">
+                    <field name="bank"/>
+                    <field name="account_num"/>
+                    <field name="short_code"/>
+                </list>
+            </field>
+        </record>
+    </data>
+</odoo>
+

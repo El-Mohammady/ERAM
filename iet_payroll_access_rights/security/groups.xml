@@ -1,0 +1,29 @@
+<odoo>
+    <data>
+
+        <record id="eram_category_id" model="ir.module.category">
+            <field name="name">Eram Access Groups</field>
+            <field name="sequence">100</field>
+        </record>
+
+
+        <record id="confirm_payslip_group" model="res.groups">
+            <field name="name">Payslip Confirmed</field>
+            <field name="category_id" ref="iet_payroll_access_rights.eram_category_id"/>
+            <field name="implied_ids" eval="[(4, ref('base.group_user'))]"/>
+        </record>
+
+        <record id="approve_payslip_group" model="res.groups">
+            <field name="name">Payslip Approved</field>
+            <field name="category_id" ref="iet_payroll_access_rights.eram_category_id"/>
+            <field name="implied_ids" eval="[(4, ref('base.group_user'))]"/>
+        </record>
+
+        <record id="paid_payslip_group" model="res.groups">
+            <field name="name">Payslip Paid</field>
+            <field name="category_id" ref="iet_payroll_access_rights.eram_category_id"/>
+            <field name="implied_ids" eval="[(4, ref('base.group_user'))]"/>
+        </record>
+
+    </data>
+</odoo>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="employee_excel_action" model="ir.actions.report">
+            <field name="name">Employee Report</field>
+            <field name="model">employee.wizard</field>
+            <field name="report_type">xlsx</field>
+            <field name="report_name">iet_employee_excel_report.employee_report_excel</field>
+            <field name="report_file">iet_employee_excel_report.employee_report_excel</field>
+        </record>
+    </data>
+</odoo>

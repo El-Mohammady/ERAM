@@ -1,0 +1,35 @@
+<odoo>
+    <data>
+
+        <record id="ksa_saudi_social_insurance_contribution" model="hr.salary.rule">
+    <field name="name">Social Insurance Contribution</field>
+    <field name="category_id" ref="hr_payroll.COMP"/>
+    <field name="code">SIC</field>
+    <field name="sequence">5</field>
+    <field name="amount_select">code</field>
+    <field name="amount_python_compute">
+if employee.country_id.code == 'SA':
+     result = (contract.wage + contract.l10n_sa_housing_allowance) * -0.12
+else:
+        result = (contract.wage + contract.l10n_sa_housing_allowance) * -0.02
+    </field>
+    <field name="struct_id" ref="l10n_sa_hr_payroll.ksa_saudi_employee_payroll_structure"/>
+</record>
+<record id="ksa_saudi_deduction_rule" model="hr.salary.rule">
+    <field name="name">Deduction Saudi</field>
+    <field name="category_id" ref="hr_payroll.DED"/>
+    <field name="code">DEDUCTION</field>
+    <field name="sequence">6</field>
+    <field name="amount_select">code</field>
+    <field name="amount_python_compute">
+if employee.country_id.code == 'SA':
+     result = (contract.wage + contract.l10n_sa_housing_allowance) * -0.1
+else:
+     result = (contract.wage + contract.l10n_sa_housing_allowance)
+    </field>
+    <field name="struct_id" ref="l10n_sa_hr_payroll.ksa_saudi_employee_payroll_structure"/>
+</record>
+
+
+    </data>
+</odoo>

@@ -1,0 +1,11 @@
+<odoo>
+    <data>
+    <template id="question_multiple_choice_inherit" name="Question multiple_inherit" inherit_id="survey.question_multiple_choice">
+        <xpath expr="//div/label//t[@t-call='survey.question_suggested_value_image']" position="after">
+            <br/><input type="text" style="width:100%" placeholder="write your complaint" name="ticket_comment" value=""/>
+        </xpath>
+    </template>
+
+    </data>
+</odoo>
+

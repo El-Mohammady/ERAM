@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="action_employee_report" model="ir.actions.server">
+            <field name="name">Employee Report</field>
+            <field name="model_id" ref="iet_employee_excel_report.model_employee_wizard"/>
+            <field name="binding_model_id" ref="iet_employee_excel_report.model_employee_wizard"/>
+            <field name="state">code</field>
+            <field name="code">action = {
+                'type': 'ir.actions.report',
+                'report_name': 'iet_employee_excel_report.employee_report_excel',
+                'report_type': 'xlsx'
+                }
+            </field>
+        </record>
+        <menuitem id="menu_employee_report"
+                  name="Employee report"
+                  action="action_employee_report"
+                  parent="hr.hr_menu_hr_reports"
+                  sequence="10"/>
+
+
+    </data>
+</odoo>

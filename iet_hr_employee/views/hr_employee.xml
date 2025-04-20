@@ -1,0 +1,29 @@
+<odoo>
+    <data>
+        <record id="hr_employee_inherit" model="ir.ui.view">
+            <field name="name">hr_employee_inherit</field>
+            <field name="model">hr.employee</field>
+            <field name="inherit_id" ref="hr.view_employee_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//notebook/page[@name='personal_information']//field[@name='private_country_id']"
+                       position="after">
+                    <field name="national_add"/>
+                </xpath>
+                <xpath expr="//notebook/page[@name='personal_information']//field[@name='private_country_id']"
+                       position="after">
+                    <field name="zip_id"/>
+                </xpath>
+                <xpath expr="//notebook/page[@name='personal_information']//field[@name='private_country_id']"
+                       position="after">
+                    <field name="national_attach"/>
+                </xpath>
+                <xpath expr="//notebook" position="inside">
+                    <page name="bank_account" string="Bank Account"/>
+                </xpath>
+                <xpath expr="//notebook/page[@name='bank_account']" position="inside">
+                    <field name="bank_ids"  widget="section_and_note_one2many"/>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>

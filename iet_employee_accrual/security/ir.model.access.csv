@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_iet_employee_accrual_iet_employee_accrual,iet_employee_accrual.iet_employee_accrual,model_iet_employee_accrual_iet_employee_accrual,base.group_user,1,1,1,1

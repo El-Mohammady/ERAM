@@ -1,0 +1,21 @@
+<odoo>
+    <data>
+
+        <record id="ksa_saudi_end_of_service_salary_rule_inherit" model="hr.salary.rule">
+    <field name="name">Social Insurance Contribution Saudi Otherss</field>
+    <field name="category_id" ref="hr_payroll.COMP"/>
+    <field name="code">SIC</field>
+    <field name="sequence">5</field>
+    <field name="amount_select">code</field>
+    <field name="amount_python_compute">
+if employee.country_id.code == 'SA':
+    result = (contract.wage + contract.l10n_sa_housing_allowance) * -0.02
+else:
+    result = (contract.wage + contract.l10n_sa_housing_allowance) * -0.1
+    </field>
+    <field name="struct_id" ref="l10n_sa_hr_payroll.ksa_saudi_employee_payroll_structure"/>
+</record>
+
+
+    </data>
+</odoo>

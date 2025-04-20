@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="allow_miscelleneous_operations" model="res.groups">
+        <field name="name">Allow Miscelleneous Operations</field>
+        <field name="category_id" ref="iet_customs.group_payment" />
+    </record>
+</odoo>
